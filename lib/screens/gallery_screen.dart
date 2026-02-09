@@ -20,7 +20,7 @@ class _GalleryScreenState extends State<GalleryScreen> {
       setState(() => _images.addAll(selected));
     }
   }
-
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(

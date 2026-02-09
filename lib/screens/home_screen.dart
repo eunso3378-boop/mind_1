@@ -55,7 +55,7 @@ class MaumBomHome extends StatelessWidget {
     );
   }
 
-  // --- 위젯 조각들 (기존 로직 유지) 
+  // --- 위젯 조각들 (기존 로직 유지)  
 
   Widget _buildHeader() {
     return Container(

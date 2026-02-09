@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
-import '../camera_data.dart'; // [수정] main.dart 대신 이걸 불러오세요!
+import '../camera_data.dart'; 
 
 class CameraScreen extends StatefulWidget {
   const CameraScreen({super.key});
