@@ -8,7 +8,7 @@ class MaumBomHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // 폰트나 배경색 오류 방지를 위해 기본 배경색을 지정합니다.
+      // 폰트나 배경색 오류 방지를 위해 기본 배경색을 지정
       backgroundColor: const Color(0xFFFFF9F0),
       body: Center( // 화면 중앙 정렬
         child: Container(
@@ -46,7 +46,7 @@ class MaumBomHome extends StatelessWidget {
                 ),
               ),
 
-              // --- [레이어 2] 하단 네비게이션 바 (가장 위에 고정) ---
+              // --- [레이어 2] 하단 네비게이션 바 
               _buildBottomBar(context),
             ],
           ),
@@ -55,7 +55,7 @@ class MaumBomHome extends StatelessWidget {
     );
   }
 
-  // --- 위젯 조각들 (기존 로직 유지) ---
+  // --- 위젯 조각들 (기존 로직 유지) 
 
   Widget _buildHeader() {
     return Container(
