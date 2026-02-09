@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
-import '../main.dart'; // 전역 변수 cameras를 쓰기 위해 필요
+import '../camera_data.dart'; // [수정] main.dart 대신 이걸 불러오세요!
 
 class CameraScreen extends StatefulWidget {
   const CameraScreen({super.key});
